@@ -1,0 +1,10 @@
+# IDE
+.vscode
+.idea
+
+# tmp
+temp
+tmp
+
+# mac os
+.DS_Store
