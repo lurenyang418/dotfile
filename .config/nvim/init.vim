@@ -20,9 +20,9 @@ set number
 " set cursorline
 
 " 设置各种缩进
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set autoindent
 set smartindent
 set cindent
@@ -46,7 +46,10 @@ endif
 
 
 call plug#begin("~/.config/nvim/autoload")
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
@@ -54,6 +57,7 @@ Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf.vim'
 " 补全
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'jayli/vim-easycomplete'
 " 终端
 Plug 'skywind3000/vim-terminal-help'
