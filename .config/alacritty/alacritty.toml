@@ -1,0 +1,44 @@
+
+[font]
+size = 19
+
+[font.bold]
+# family = "FiraCode Nerd Font"
+family = "Maple Mono NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "Maple Mono NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "Maple Mono NF"
+style = "Italic"
+
+[font.normal]
+family = "Maple Mono NF"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 20
+
+[terminal.shell]
+args = ["-l"]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+dynamic_padding = false
+startup_mode = "SimpleFullscreen"
+
+[window.dimensions]
+columns = 120
+lines = 60
+
+[window.padding]
+x = 10
+y = 15
+
+[general]
+live_config_reload = true

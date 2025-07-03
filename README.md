@@ -1,2 +1,5 @@
 # dotfile
 .vimrc 
+
+alacritty
+ghostty
