@@ -1,0 +1,11 @@
+*~
+.DS_Store
+
+# temp
+tmp
+temp
+
+# log
+logs/
+log/
+*.log
