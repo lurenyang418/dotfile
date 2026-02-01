@@ -1,3 +1,6 @@
+# vi mode
+bindkey -v
+export KEYTIMEOUT=1
 
 # history
 HISTSIZE=100000
