@@ -1,8 +1,6 @@
 " 中文支持
 set fileencoding=utf-8
 set fileencodings=utf-8,gb2312,gb18030,latin1
-set termencoding=utf-8
-set encoding=utf-8
 
 " 语法高亮
 syntax on
@@ -10,25 +8,37 @@ syntax on
 filetype on
 " 根据文件类型加载对应的插件
 filetype plugin on
-" 搜索时忽略大小写（除非包含大写字母）
+
+" 搜索设置
 set ignorecase
 set smartcase
+set hlsearch
+set incsearch
 
-" 设置制表符为4个空格
+" 缩进设置
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-" 自动缩进
 set autoindent
 set smartindent
 
-" 关闭交换文件（避免生成.swp文件）
+" 显示设置
+set number
+set relativenumber
+set wrap
+set showcmd
+set wildmenu
+
+" 性能优化
+set lazyredraw
+set updatetime=300
+
+" 关闭交换文件
 set nobackup
 set noswapfile
 set nowritebackup
 set noundofile
 
-" faster
+" 快速缩进
 nnoremap < <<
 nnoremap > >>
