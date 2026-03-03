@@ -1,0 +1,24 @@
+# ~/.config/starship.toml
+
+add_newline = false
+command_timeout = 10000
+format = "$all\n[➜](bold green) "
+
+[package]
+disabled = true
+
+[directory]
+truncate_to_repo = true
+truncation_length = 2
+
+[character]
+success_symbol = ""
+error_symbol = ""
+format = "$symbol"
+
+[line_break]
+disabled = true
+
+[git_branch]
+truncation_length = 15
+truncation_symbol = "😛"
