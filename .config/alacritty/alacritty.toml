@@ -1,9 +1,7 @@
-
 [font]
 size = 19
 
 [font.bold]
-# family = "FiraCode Nerd Font"
 family = "Maple Mono NF CN"
 style = "Bold"
 
@@ -42,3 +40,8 @@ y = 15
 
 [general]
 live_config_reload = true
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
